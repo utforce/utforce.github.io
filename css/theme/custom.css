@@ -10,7 +10,7 @@
  *********************************************/
 body {
   background: #FFFFFF;
-  background-color: #C0C0C0;}
+  background-color: #D8D8D8;}
 
 .reveal {
   font-family: "Helvetica", sans-serif;
@@ -21,7 +21,7 @@ body {
 
 ::selection {
   color: white;
-  background: #C0C0C0;
+  background: #D8D8D8;
   text-shadow: none; }
 
 /*********************************************
@@ -151,20 +151,31 @@ body {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 2px;
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
     }
 
 .reveal section td {
     border: 1px solid black;
     border-collapse: collapse;
-    font-size: 13px;
+    font-size: 14px;
     padding: 2px;
     text-align: center;
     }
 
 .reveal section th {
-    font-size: 13px;
+    font-size: 14px;
     padding: 2px;
     text-align: left;
     }
+
+.reveal blockquote {
+    display: block;
+    position: relative;
+    width: 70%;
+    margin: 20px auto;
+    padding: 5px;
+    font-style: normal;
+    background: rgba(0, 0, 0, 0.05);
+    /*box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);*/
+}
